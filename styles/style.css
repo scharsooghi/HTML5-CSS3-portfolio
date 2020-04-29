@@ -1,0 +1,180 @@
+/* Import Reset Styles file*/
+@import "reset.css";
+
+/* General Styles */
+body,
+html {
+    font-family: sans-serif;
+    height: 100%;
+}
+
+a {
+    color: #fff;
+}
+
+/* Left Section Styles */
+
+#left-section {
+    width: 33%;
+    float: left;
+    color: #fff;
+    height: 100%;
+    position: relative;
+    background-color: #0A162B;
+    background: rgb(0, 22, 66);
+    background: -moz-linear-gradient(180deg, rgba(0, 22, 66, 1) 0%, rgba(77, 89, 115, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0, 22, 66, 1) 0%, rgba(77, 89, 115, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 22, 66, 1) 0%, rgba(77, 89, 115, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001642", endColorstr="#4d5973", GradientType=1);
+}
+
+#left-section .name-section {
+    margin: 70px 0 0 20px;
+}
+
+#left-section .left-first-name {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#left-section .left-last-name {
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 130px;
+}
+
+#left-section .line {
+    border: solid #fff 1px;
+    width: 124px;
+    position: relative;
+    right: 135px;
+    top: -20px;
+}
+
+#left-section .contact-section {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding-left: 70px;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+
+#left-section .social-media {
+    margin-left: 30px;
+}
+
+#left-section .social-media ul li {
+    display: inline-block;
+    padding-right: 7px;
+}
+
+#left-section .social-media ul li a:hover {
+    color: #DAE3F3;
+    cursor: pointer;
+}
+
+
+
+/* Right Section Styles */
+
+#right-section {
+    height: 100%;
+}
+
+#right-section img {
+    margin-top: 90px;
+    position: relative;
+    left: -100px;
+    
+
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.64);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.64);
+}
+
+#right-section .right-text {
+    position: absolute;
+    left: 680px;
+    bottom: 80px;
+}
+
+#right-section .right-name {
+    font-size: 50px;
+    font-weight: bold;
+    color: #0A162B;
+    margin-bottom: 10px;
+}
+
+#right-section .right-desc {
+    margin-bottom: 7px;
+    margin-left: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4B0915;
+}
+
+#right-section .about-me {
+    margin: 0 0 20px 6px;
+    padding-right: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    height: 300px;
+    width: 510px;
+    overflow-y: scroll;
+    color: #000;
+    text-align: justify;
+
+}
+
+#right-section .about-me span {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 20px;
+}
+
+#right-section .buttons {
+    margin-top: 30px;
+    margin-left: 6px;
+
+}
+
+#right-section .buttons a {
+    text-decoration: none;
+    color: #4B0915;
+    font-weight: bold;
+    padding: 7px 10px;
+    border: solid 2px #0A162B;
+    border-radius: 5px;
+}
+
+#right-section .buttons a:hover {
+    cursor: pointer;
+    color: #0A162B;
+    background-color: #DAE3F3;
+
+}
+
+/* Progressbar Styles*/
+
+.progressbar-element {
+    width: 400px;
+    height: 17px;
+    margin-bottom: 10px;
+    background: #DAE3F3;
+    border-radius: 5px;
+}
+
+.progressbar-title {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.progressbar-element .progress {
+    background: #0A162B;
+    height: 100%;
+    display: block;
+    border-radius: 5px 0 0 5px;
+}
